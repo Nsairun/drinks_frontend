@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-image: url("../../public/Long\ Island\ Iced\ Tea\ &\ Long\ Island\ Drink\ Variations\ \(1\).png");
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login h1 {
+    height: 10vh;
+    width: 22vw;
+    text-align: center;
+    font-weight: 700;
+    background-color: #bce40d;
+}
+
+.login input {
+    height: 6vh;
+    width: 22vw;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.login button {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(131, 226, 43);
+    color: white;
+    border: 3px solid rgb(9, 10, 6);
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    outline: none;
+    transition: all 0.4s;
+  }
+  
+button ::after {
+    content: '';
+    position: absolute;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+button ::before {
+    content: '';
+    position: absolute;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+button:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -30px 30px 10px;
+}

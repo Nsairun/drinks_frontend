@@ -1,0 +1,69 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    background-image: url("../../public/Blue\ Long\ Island\ Iced\ Tea\ drink\ recipe.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.user {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user h1 {
+    height: 10vh;
+    width: 22vw;
+    text-align: center;
+    font-weight: 700;
+    background-color: #20b2aa;
+}
+
+.userInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.userInput input {
+    height: 6vh;
+    width: 22vw;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(43, 220, 226);
+    color: white;
+    border: 3px solid rgb(4, 6, 7);
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+  }
+  
+  button ::after {
+    content: '';
+    position: absolute;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+button ::before {
+    content: '';
+    position: absolute;
+    transform: rotate(0deg) skewY(-25deg);
+}
+
+button:hover {
+    transform: rotate(-10deg) skew(15deg) translate(20px, -20px);
+    box-shadow: -30px 30px 10px;
+}
